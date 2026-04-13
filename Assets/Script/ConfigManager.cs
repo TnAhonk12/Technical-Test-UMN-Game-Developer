@@ -12,7 +12,7 @@ public class ConfigManager : MonoBehaviour
 #if UNITY_EDITOR
         configPath = Application.dataPath + "/config.json";
 #else
-    configPath = Application.persistentDataPath + "/config.json";
+    configPath = Application.dataPath + "/../config.json";
 #endif
 
         if (!File.Exists(configPath))
