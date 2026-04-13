@@ -1,7 +1,8 @@
-using System.IO;
-using UnityEngine;
 using System;
 using System.Globalization;
+using System.IO;
+using UnityEngine;
+
 
 public class Spawner : MonoBehaviour
 {
@@ -158,8 +159,8 @@ public class Spawner : MonoBehaviour
         for (int i = 0; i < 20; i++) 
         {
             Vector2 pos = new Vector2(
-                Random.Range(-8f, 8f),
-                Random.Range(-4f, 4f)
+                UnityEngine.Random.Range(-8f, 8f),
+                UnityEngine.Random.Range(-4f, 4f)
             );
 
             Collider2D hit = Physics2D.OverlapCircle(pos, radius);
