@@ -1,0 +1,57 @@
+{
+    "fishMinSpeed": 1.0,
+    "fishMaxSpeed": 3.0,
+    "fishSize": 0.5,
+    "trashMinSpeed": 0.5,
+    "trashMaxSpeed": 1.5,
+    "trashSize": 2.5,
+    "hungerDecreaseRate": 5.0,
+    "hungerCooldown": 3.0,
+    "detectionRadius": 3.0,
+    "fishConfigs": [
+        {
+            "type": "ANGELFISH",
+            "minSpeed": 2.0,
+            "maxSpeed": 4.0,
+            "size": 0.5
+        },
+        {
+            "type": "COD",
+            "minSpeed": 1.5,
+            "maxSpeed": 2.5,
+            "size": 0.6
+        },
+        {
+            "type": "POMFRET",
+            "minSpeed": 1.2000000476837159,
+            "maxSpeed": 2.0,
+            "size": 0.5
+        },
+        {
+            "type": "SEAHORSE",
+            "minSpeed": 0.800000011920929,
+            "maxSpeed": 1.5,
+            "size": 0.7
+        },
+        {
+            "type": "STARFISH",
+            "minSpeed": 0.30000001192092898,
+            "maxSpeed": 0.800000011920929,
+            "size": 0.5
+        }
+    ],
+    "trashConfigs": [
+        {
+            "type": "CHIPS",
+            "minSpeed": 0.5,
+            "maxSpeed": 1.0,
+            "size": 0.30000001192092898
+        },
+        {
+            "type": "LOG",
+            "minSpeed": 0.20000000298023225,
+            "maxSpeed": 0.6000000238418579,
+            "size": 0.5
+        }
+    ]
+}
