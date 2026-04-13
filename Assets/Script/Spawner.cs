@@ -1,4 +1,7 @@
+using System.IO;
 using UnityEngine;
+using System;
+using System.Globalization;
 
 public class Spawner : MonoBehaviour
 {
@@ -18,7 +21,8 @@ public class Spawner : MonoBehaviour
 
     public void SpawnFromFile(string fileName, Texture2D tex)
     {
-        string[] parts = fileName.Split('_');
+        string fileNameNoExt = Path.GetFileNameWithoutExtension(fileName);
+        string[] parts = fileNameNoExt.Split('_');
 
         if (!fileName.StartsWith("FISH_") && !fileName.StartsWith("TRASH_"))
         {
@@ -34,6 +38,23 @@ public class Spawner : MonoBehaviour
 
         string category = parts[0];
         string type = parts[1];
+        string timestamp = parts[2];
+
+        DateTime spawnTime;
+
+        if (DateTime.TryParseExact(
+            timestamp,
+            "yyyyMMddHHmmss",
+            CultureInfo.InvariantCulture,
+            DateTimeStyles.None,
+            out spawnTime))
+        {
+            Debug.Log("Spawn Time: " + spawnTime);
+        }
+        else
+        {
+            Debug.LogWarning("Invalid timestamp: " + timestamp);
+        }
 
         if (category == "FISH")
         {
