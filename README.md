@@ -27,7 +27,7 @@
   * Floating di area akuarium
 * Player dapat:
 
-  * Memberi makan (max batch system)
+  * Memberi makan (max batch system (Default = 7))
   * Membersihkan sampah
 
 ---
@@ -64,15 +64,15 @@ AquascapeAssets/
 Format penamaan:
 
 ```text
-FISH_<TYPE>_<ID>.png
-TRASH_<TYPE>_<ID>.png
+FISH_<TYPE>_<YYYYMMDDHHMMSS>.png
+TRASH_<TYPE>_<YYYYMMDDHHMMSS>.png
 ```
 
 Contoh:
 
 ```text
-FISH_ANGELFISH_1.png
-TRASH_LOG_1.png
+FISH_ANGELFISH_20260413201530.png
+TRASH_LOG_20260413201610.png
 ```
 
 Sistem akan:
