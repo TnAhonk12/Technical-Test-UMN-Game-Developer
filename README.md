@@ -175,8 +175,8 @@ AquascapeAssets/
 2. Gunakan format:
 
 ```text
-FISH_<TYPE>_<ID>.png
-TRASH_<TYPE>_<ID>.png
+FISH_<TYPE>_<YYYYMMDDHHMMSS>.png
+TRASH_<TYPE>_<YYYYMMDDHHMMSS>.png
 ```
 
 3. (Optional) Tambahkan config di `config.json`
