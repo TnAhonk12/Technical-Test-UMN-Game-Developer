@@ -147,16 +147,22 @@ Berikut aset yang digunakan dalam project:
 ### Reference & Assets
 
 * Insaniquarium Wiki
-  https://insaniquarium.fandom.com/wiki/Fish_Food
+  [https://insaniquarium.fandom.com/wiki/Fish_Food]
 
 * The Spriters Resource - Insaniquarium Sprites
-  https://www.spriters-resource.com/pc_computer/insaniquarium/asset/25237/
+  [https://www.spriters-resource.com/pc_computer/insaniquarium/asset/25237/]
 
 * SteamGridDB
-  https://www.steamgriddb.com/hero/37086
+  [https://www.steamgriddb.com/hero/37086]
 
 * Spriters Resource Sounds
-  https://sounds.spriters-resource.com/pc_computer/insaniquarium/asset/430508/
+  [https://sounds.spriters-resource.com/pc_computer/insaniquarium/asset/430508/]
+
+* Fish Assets
+  ryan.dansie [https://opengameart.org/users/ryandansie]
+  
+* Trash Assets
+  EyAxeMan [https://opengameart.org/users/eyaxeman]
 
 Semua aset digunakan untuk tujuan pembelajaran dan non-komersial.
 
